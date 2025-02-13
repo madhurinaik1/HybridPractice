@@ -41,5 +41,6 @@ public class BaseClass {
 		spark=new ExtentSparkReporter(System.getProperty("user.dir")+"/target/ExtentReport.html");
 //		spark=new ExtentSparkReporter("D:\\MyNwWorkspace\\com.Hybrid228\\target\\ExtentRepotrt.html");
 		report.attachReporter(spark);
+		System.out.println(",,,,");
 	}
 }
