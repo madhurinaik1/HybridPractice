@@ -2,20 +2,20 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1121" started-at="2025-02-13T17:29:25 IST" finished-at="2025-02-13T17:29:26 IST">
+  <suite name="Suite" duration-ms="596" started-at="2025-02-13T18:22:11 IST" finished-at="2025-02-13T18:22:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1121" started-at="2025-02-13T17:29:25 IST" finished-at="2025-02-13T17:29:26 IST">
+    <test name="Test" duration-ms="596" started-at="2025-02-13T18:22:11 IST" finished-at="2025-02-13T18:22:12 IST">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="setup" is-config="true" duration-ms="2523" started-at="2025-02-13T17:29:22 IST" finished-at="2025-02-13T17:29:25 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="setup" is-config="true" duration-ms="2100" started-at="2025-02-13T18:22:09 IST" finished-at="2025-02-13T18:22:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test01()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test01" duration-ms="924" started-at="2025-02-13T17:29:25 IST" finished-at="2025-02-13T17:29:26 IST">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test01" duration-ms="474" started-at="2025-02-13T18:22:11 IST" finished-at="2025-02-13T18:22:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="FAIL" signature="test02()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test02" duration-ms="1" started-at="2025-02-13T17:29:26 IST" finished-at="2025-02-13T17:29:26 IST">
+        <test-method status="FAIL" signature="test02()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test02" duration-ms="1" started-at="2025-02-13T18:22:12 IST" finished-at="2025-02-13T18:22:12 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -65,7 +65,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method status="SKIP" signature="test03()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test03" duration-ms="0" started-at="2025-02-13T17:29:26 IST" finished-at="2025-02-13T17:29:26 IST">
+        <test-method status="SKIP" signature="test03()[pri:0, instance:com.tests.LoginTest@7e99d8]" name="test03" duration-ms="0" started-at="2025-02-13T18:22:12 IST" finished-at="2025-02-13T18:22:12 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Test got skipped]]>
